@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.banjoinc.uituto.Home">
+
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/profilebutton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textColor="@android:color/white"
+        android:textSize="14dp"
+        app:cub_border_radius="0dp"
+        app:cub_color="#03A9F4"
+        app:cub_hover_color="#00BFFFF1"
+        app:cub_icon="@drawable/ic_profile"
+        android:layout_marginTop="145dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+
+        android:id="@+id/giftbutton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textColor="@android:color/white"
+        android:textSize="14dp"
+        app:cub_border_radius="0dp"
+        app:cub_color="#03A9F4"
+        app:cub_hover_color="#00BFFFF1"
+        app:cub_icon="@drawable/ic_gift"
+        android:layout_below="@+id/profilebutton"
+        android:layout_toEndOf="@+id/profilebutton" />
+
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/routebutton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textColor="@android:color/white"
+        android:textSize="14dp"
+        app:cub_border_radius="0dp"
+        app:cub_color="#03A9F4"
+        app:cub_hover_color="#00BFFFF1"
+        app:cub_icon="@drawable/ic_map"
+        android:layout_alignBaseline="@+id/giftbutton"
+        android:layout_alignBottom="@+id/giftbutton"
+        android:layout_toStartOf="@+id/profilebutton" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/complainbutton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textColor="@android:color/white"
+        android:textSize="14dp"
+        app:cub_border_radius="0dp"
+        app:cub_color="#03A9F4"
+        app:cub_hover_color="#00BFFFF1"
+        app:cub_icon="@drawable/ic_complain"
+        android:layout_marginStart="58dp"
+        android:layout_below="@+id/giftbutton"
+        android:layout_alignStart="@+id/routebutton"
+        android:layout_marginTop="29dp" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/searchbutton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textColor="@android:color/white"
+        android:textSize="14dp"
+        app:cub_border_radius="0dp"
+        app:cub_color="#03A9F4"
+        app:cub_hover_color="#00BFFFF1"
+        app:cub_icon="@drawable/ic_search"
+        android:layout_alignTop="@+id/complainbutton"
+        android:layout_toEndOf="@+id/complainbutton"
+        android:layout_marginStart="26dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UItuto</string>
+    <string name="slogan">Bienvenidos a Bogoair</string>
+    <string name="result">Resultado</string>
+    <string name="gps_not_found">Encienda el GPS</string>
+    <string name="ok">Ok</string>
+    <string name="title_activity_contacts">ContactsActivity</string>
+</resources>
